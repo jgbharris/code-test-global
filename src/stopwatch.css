@@ -1,0 +1,62 @@
+body {
+	text-align:center;
+	font-family:verdana;
+}
+form#stopwatch {
+	margin:.5em auto;
+	width:50%;
+	overflow:hidden;
+	border:1px solid gray;
+	padding:.25em 0;
+}
+form#stopwatch input {
+	font-size:14px;
+}
+form#stopwatch input#display {
+	font-size:50px;
+}
+
+input#display {
+	text-align:center;
+	display:block;
+	width:100%;
+	border:0;
+	margin-bottom:.5em;
+}
+form#stopwatch fieldset {
+	position:relative;
+	text-align:center;
+	padding:0;
+	border:none;
+	min-height:2em;
+}
+#btn_st,
+#btn_reset {
+	position:absolute;
+	left:.25em;
+	top:0;
+}
+#btn_reset {
+	left:auto;
+	right:.25em;
+}
+
+/* lap times display */
+table#lap_times_table {
+	clear:left;
+	width:50%;
+	margin:.5em auto;
+	padding:0;
+	border:1px solid gray;
+	border-width:0 0 1px 1px;
+}
+table#lap_times_table th, td {
+	margin:0;
+	padding:.5em;
+	border:1px solid gray;
+	border:1px 1px 0 0;
+}
+tr.record {
+	background-color:red;
+	color:#fff;
+}
